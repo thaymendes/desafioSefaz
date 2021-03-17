@@ -1,0 +1,7 @@
+package br.com.thaymendes.desafiosefaz.dao;
+
+public class LancamentoDao {
+	private String urlBanco = "jdbc:mysql://localhost:3306/desafio?useSSL=false";
+	private String usuarioBanco = "root";
+	private String senhaBanco = "";
+}

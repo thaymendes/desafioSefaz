@@ -1,0 +1,61 @@
+package br.com.thaymendes.desafiosefaz.entidade;
+
+import java.util.Date;
+
+public class Lancamento {
+	private int id;
+	private String descricao;
+	private String tipo;
+	private Date vencimento;
+	private boolean status;
+	private double valor;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	public Date getVencimento() {
+		return vencimento;
+	}
+
+	public void setVencimento(Date vencimento) {
+		this.vencimento = vencimento;
+	}
+
+	public boolean isStatus() {
+		return status;
+	}
+
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+
+	public double getValor() {
+		return valor;
+	}
+
+	public void setValor(double valor) {
+		this.valor = valor;
+	}
+
+}
